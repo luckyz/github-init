@@ -1,9 +1,9 @@
 import sys
 from selenium import webdriver
 
-username = sys.argv[1]
-password = sys.argv[2]
-reponame = sys.argv[3]
+username = sys.argv[2]
+password = sys.argv[3]
+reponame = sys.argv[4]
 
 browser = webdriver.Chrome()
 browser.get('http://github.com/login')
