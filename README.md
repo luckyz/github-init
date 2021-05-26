@@ -34,6 +34,7 @@ To run the script type
 
 ```bash
 EMAIL="your_email"
+USERNAME="your_username"
 PASSWORD="your_password"
 FILEPATH="/path/to/your/project/"
 ```
