@@ -5,8 +5,13 @@
 ```bash
 git clone https://github.com/luckyz/github-init.git
 cd github-init/
-virtualenv venv && source venv/bin/activate  # (only if you wish use virtual environment)
+
+# if you wish use virtual environments
+pip3 install python-virtualenv
+virtualenv venv && source venv/bin/activate
+
 pip3 install -r requirements.txt`
+
 touch .env
 ```
 
@@ -28,7 +33,7 @@ To run the script type
 ## Env File Format
 
 ```bash
-USERNAME="Username123"
-PASSWORD="Password123"
+EMAIL="your_email"
+PASSWORD="your_password"
 FILEPATH="/path/to/your/project/"
 ```
