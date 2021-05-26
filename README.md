@@ -18,7 +18,7 @@ touch .env
 Then open the .env file and store your username, password, and desired file destination. Use the provided format at the bottom of this README.
 
 ```bash
-source ~/.my_commands.sh
+source ~/.commandlist.sh
 ```
 
 
