@@ -1,19 +1,32 @@
-### Install: 
+# GitHub initialize ![Build Status](https://img.shields.io/badge/build-under%20development-orange)
+
+## Install
+
 ```bash
-git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
-cd ProjectInitializationAutomation
-pip install -r requirements.txt
+git clone https://github.com/luckyz/github-init.git
+cd github-init/
+virtualenv venv && source venv/bin/activate  # (only if you wish use virtual environment)
+pip3 install -r requirements.txt`
 touch .env
+```
+
 Then open the .env file and store your username, password, and desired file destination. Use the provided format at the bottom of this README.
+
+```bash
 source ~/.my_commands.sh
 ```
 
-### Usage:
+
+## Usage
+
+To run the script type
+
 ```bash
-To run the script type in 'create <name of your folder>'
+ create <foldername>
 ```
 
-### Env File Format:
+## Env File Format
+
 ```bash
 USERNAME="Username123"
 PASSWORD="Password123"
